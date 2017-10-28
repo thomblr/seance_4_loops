@@ -24,7 +24,7 @@ card_value_player = 0
 card_value_ia = 0
 
 picked_card_player = random_card()
-print("Vous avez pioché : {}".format(picked_card_player))
+print("Vous avez pioché : %d" % picked_card_player)
 card_value_player += picked_card_player
 
 picked_card_ia = random_card()
